@@ -9,7 +9,7 @@
           </div>
           <div>
             <button type="button" onClick="window.location.reload();" class="btn btn-light btn-sm">
-              <i class="fas fa-sync-alt fa-sm"></i> <?php echo _("Refresh") ?>
+              <i class="fas fa-sync-alt"></i> <?php echo _("Refresh") ?>
             </button>
           </div>
         </div><!-- /.row -->
