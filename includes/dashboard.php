@@ -12,7 +12,7 @@ use RaspAP\Networking\Hotspot\WiFiManager;
 /**
  * Displays the dashboard
  */
-function DisplayDashboard(&$extraFooterScripts): void
+function DisplayDashboard(): void
 {
     // instantiate RaspAP objects
     $system = new Sysinfo();

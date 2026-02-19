@@ -23,7 +23,7 @@ function handleCorePageAction(string $page, array &$extraFooterScripts): void
 {
     switch ($page) {
         case "/" ?? "/dashboard":
-            DisplayDashboard($extraFooterScripts);
+            DisplayDashboard();
             break;
         case "/dhcpd_conf":
             DisplayDHCPConfig();
@@ -74,7 +74,7 @@ function handleCorePageAction(string $page, array &$extraFooterScripts): void
             DisplayLogin();
             break;
         default:
-            DisplayDashboard($extraFooterScripts);
+            DisplayDashboard();
     }
 }
 
