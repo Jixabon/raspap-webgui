@@ -22,7 +22,7 @@ if (!$pluginManager->handlePageAction($page)) {
 function handleCorePageAction(string $page, array &$extraFooterScripts): void
 {
     switch ($page) {
-        case "/wlan0_info":
+        case "/" ?? "/dashboard":
             DisplayDashboard($extraFooterScripts);
             break;
         case "/dhcpd_conf":
